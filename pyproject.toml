@@ -6,9 +6,12 @@ authors = [
     {name = "amane",email = "amn.knd.76@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.9"
+requires-python = ">=3.10"
 dependencies = [
-    "pandas (>=2.2.3,<3.0.0)"
+    "pandas (>=2.2.3,<3.0.0)",
+    "matplotlib (>=3.10.1,<4.0.0)",
+    "streamlit (==1.43.0)",
+    "wordcloud (>=1.9.4,<2.0.0)"
 ]
 
 [build-system]
